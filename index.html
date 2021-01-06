@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron bg-secondary pt-4 pb-4 px-4">
+        <h1>Ici vous avez le component jumbotron</h1>
+        <p>Ingeniis anim cernantur possumus, voluptate relinqueret et commodo est</p>
+        <hr>
+        <p>Ici info secondaire</p>
+        <p><a href="#" class="btn btn-primary btn-lg" role="button" title="En savoir +">Un bouton déjà tout fait pour
+                vous</a></p>
+    </div>
+    <div class="container d-row pt-4">
+        <h2>Nous nous trouvons ici dans un container qui est limité en largeur <span
+                class="badge badge-success bg-success">et ceci est un badge</span></h2>
+        <p>voila ici une collection de différent type de badge</p>
+        <span class="badge badge-secondary bg-primary"><a href=""></a>moi je suis un lien</span> <span
+            class="badge rounded-pill bg-danger">moi je suis un arrondi</span> <span
+            class="badge badge-secondary bg-warning">et moi j'arbore juste une autre couleur</span>
+    </div>
+    <div class="container-fluid d-flex justify-content-center">
+        <center>
+            <h2>Vous avez un container fluid</h2>
+            <p>mais qu'est ce que cela veut dire ? Quelle est la différence ? Et pourquoi le texte est soudainement
+                centré</p>
+            <div class="alert alert-danger px-5" role="alert">
+                Rechercher dans la doc ... LA DOOOOOOOCCCC!!!!!
+            </div>
+        </center>
+    </div>
+    <section class="bg-dark text-white d-flex justify-content-center py-4">
+        <div>
+            <center>
+                <p>Voici une section avec un fond noir et un texte blanc</p>
+                <p>Mais comment fait-on cela ? Est-ce de la magie ? De la magie noir... Mouahahhahaha</p>
+                <div class="alert alert-light px-5" role="alert">Et si tu regarde de plus près nous sommes entouré par
+                    une force misterieuse qui nous repouse des bords.
+                </div>
+            </center>
+        </div>
+    </section>
+    <section>
+        <div class="row py-5">
+            <div class="col-4 px-5 d-flex justify-content-center">
+                <p">Une liste de chose à faire</p>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            Réviser le soir.
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Etre curieux et ne pas hésiter à
+                            chercher par moi même et à tester.</a>
+                        <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
+                            aria-disabled="true">Toujours croire en la puissance binaire du coach <span
+                                class="badge badge-secondary bg-success">que le code soit sur lui.</span></a>
+                    </div>
+            </div>
+            <div class="col-4 px-5 d-flex justify-content-center">
+                <p">Les cartes ne sont pas faite que pour jouer</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./node_modules/img/carre_das.png" class="card-img-top" alt="...">
+                        <div class="card-body text-white bg-dark">
+                            <h5 class="card-title">Le carré d'as qui rafle la mise</h5>
+                            <p class="card-text">Caroline</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="alert alert-primary mx-5" role="alert">C'est moi ou les 3 colonnes du dessus sont centré verticalement</div>
+        </div>
+    </section>
+</body>
+
+</html>
